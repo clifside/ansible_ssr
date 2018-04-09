@@ -1,14 +1,38 @@
-#ShadowsocksR
+
+ansible_ssr
+=========
+
 Installs [ShadowsocksR](https://github.com/shadowsocksr-backup/shadowsocksr.git)
 
-##Requirements
+Requirements
+------------
 
 edit shadowsocks.json change the port&passwd settings
 
-##License
-Apache
+Role Variables
+--------------
 
-##Author Information
+install path & ShadowsocksR version could be edited in defaults/main.yml and vars/main.yml
+
+Dependencies
+------------
+
+
+Example Playbook
+----------------
+
+    - hosts: servers
+      roles:
+         - { role: Clifside.ansible_ssr }
+
+License
+-------
+
+BSD
+
+Author Information
+------------------
+
 Clifside gongzhen163@163.com
 
 

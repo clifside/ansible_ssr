@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Clifside
+  description: Clifside
+  company: Qunar
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.7
+    platforms:
+    - name: Ubuntu
+      versions:
+      - trusty
+    - name: Debian
+      versions:
+      - jessie
+    - name: RedHat
+      versions:
+      - all
+    categories:
+    - vpn
+    - system
+    - cross the wall
+dependencies: []
