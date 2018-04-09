@@ -1,0 +1,8 @@
+
+- name: yum install git
+  yum:
+    name: git
+    state: present
+
+- name: yum install python
+  yum: name=python state=present

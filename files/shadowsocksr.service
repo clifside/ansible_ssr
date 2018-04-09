@@ -1,0 +1,13 @@
+[Unit]
+Description=ShadowsocksR daemon
+
+[Service]
+Type=simple
+User=ssr
+Group=ssr
+Restart=on-failure
+WorkingDirectory=/opt/shadowsocksr
+ExecStart=python /opt/shadowsocksr/shadowsocks/server.py -c /etc/shadowsocks.json -O auth_aes128_md5 -o tls1.2_ticket_auth_compatible
+
+[Install]
+WantedBy=multi-user.target

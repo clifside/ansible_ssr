@@ -1,0 +1,7 @@
+
+pro_name: shadowsocksr
+shadowsocksr_repo: 'https://github.com/shadowsocksr-backup/{{pro_name}}.git'
+ssr_branch: manyuser
+ssr_group: ssr
+ssr_user: ssr
+

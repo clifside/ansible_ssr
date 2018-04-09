@@ -1,0 +1,5 @@
+
+ssr_work_dir: '/opt/{{pro_name}}'
+ssr_systemd: /etc/systemd/system/shadowsocksr.service
+ssr_upstart: /etc/init/shadowsocksr.conf
+ssr_conf_dir: /etc/shadowsocks.json

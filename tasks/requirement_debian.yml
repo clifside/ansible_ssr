@@ -1,0 +1,6 @@
+
+- name: apt install git
+  apt: name=git state=present
+
+- name: apt install python
+  apt: name=python state=present
