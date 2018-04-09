@@ -1,4 +1,6 @@
 
+[![Build Status](https://travis-ci.org/clifside/ansible_ssr.svg?branch=master)](https://travis-ci.org/clifside/ansible_ssr)
+
 ansible_ssr
 =========
 
