@@ -2,6 +2,7 @@
 Installs [ShadowsocksR](https://github.com/shadowsocksr-backup/shadowsocksr.git)
 
 ##Requirements
+
 edit shadowsocks.json change the port&passwd settings
 
 ##License

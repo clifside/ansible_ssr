@@ -11,9 +11,6 @@
 - name: Setup user
   user: name={{ssr_user}} system=yes group={{ssr_group}}
 
-#- name: create ssr directory
-#  file: path={{ssr_work_dir}} state=directory owner={{ssr_user}} group={{ssr_group}} mode=755
-
 - name: clone shadowsocksr
   git:
     repo: '{{shadowsocksr_repo}}'
